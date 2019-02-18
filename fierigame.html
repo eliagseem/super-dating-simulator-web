@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>SELECT A DATE</title>
+        <title>!!! YOU WON A DATE WITH GUY FIERI !!!</title>
         <link rel="stylesheet" href="style.css" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans:300" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet"> 
@@ -12,26 +12,35 @@
     </head>
     <body>
         <header>
-    		<div class="header centered">
-				<p>SELECT A DATE</p>
+    		<div class="header">
+				<p>GUY FIERI DATING SIMULATOR</p>
 			</div>
         </header>
 		
 		<div class="mainpane">
-			<div class="selectpane">
-				<button id="button0" type="button" class="stageButton" onclick="window.location.href='devitogame.html'"><img src="images/dannybutton.png"></img></button>
-				<button id="button1" type="button" class="stageButton" onclick="window.location.href='fierigame.html'"><img src="images/guyfieributtonUnlocked.png"></img></button>
-				<button id="button2" type="button" class="stageButton"><img src="images/babygrinchbutton.png"></img></button>
-				<button id="button3" type="button" class="stageButton"><img src="images/achairbutton.png"></img></button>
+			<div class="contentpane">
+				<div class="imagepane">
+                	<img id="imagebox" src="images/image1.jpg"/>
+				</div>
+				<div id="textpanel" class="textpane">
+					<div id="textplaceholder"></div>
+				</div>
 			</div>
+			<div class="buttonpane">
+				<button id="button0" type="button" class="button">BUTTON</button>
+				<button id="button1" type="button" class="button">BUTTON</button>
+				<button id="button2" type="button" class="button">BUTTON</button>
+				<button id="button3" type="button" class="button">BUTTON</button>
 			<form  action="index.html" class="startButton centered">
 		    	<input type="submit" class="startButton centered" value="BACK TO START" />
 			</form>
+			</div>
 		</div>
-		 <audio autoplay>
+		 <audio id="musicpane" autoplay>
 		    <source type="audio/mpeg" id="audiosrc">
-		      <source src="music/stageselect.mp3" type="audio/mpeg">
 			Your browser does not support the audio element.
 		</audio> 
+		<script type="text/javascript" src="fiericontent.js"></script>		
+		<script type="text/javascript" id="scriptTag" src="main.js" game="fieri"></script>
 	</body>
 </html>

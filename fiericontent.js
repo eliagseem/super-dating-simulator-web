@@ -6,7 +6,7 @@ var fieriScreens = [
         "screenID":0,
         "imageName":"images/image1.jpg",
         "musicName":"music/datemusic2.mp3",
-        "mainText":"You won a date with Danny Devito!! Congratulations! You meet at a fancy restaurant, just the two of you. You sit down at your designated table and wait half an hour. He's late!",
+        "mainText":"oooh",
         "buttonPanel":[
             {
                 "buttonPos":0,
