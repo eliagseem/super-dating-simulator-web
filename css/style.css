@@ -1,0 +1,248 @@
+/*stuff that should be the same on every screen*/
+
+html,
+body {
+  margin:0 auto;
+  width: 75%;
+  height: 100%;
+  background:black;
+  padding-top:3%;
+}
+
+.p {
+	padding-top:5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.centered{
+    margin:0 auto;
+    text-align:center;
+}
+
+
+* {
+    color: white;
+	box-sizing: border-box;
+}
+
+pre {
+	white-space: pre-wrap;
+}
+
+.header {
+   font-family: 'Press Start 2P', monospace;
+   padding: 15px;
+}
+
+
+/*Specific to the actual game screens*/
+
+.mainpane {
+	width: 100%;
+	height: 80vh;
+	float: left;
+	margin:0 auto;
+    font-family: 'Press Start 2P', monospace;
+	text-align: center;
+}
+
+.textpane {
+	width: 50%;
+	height: 90%;
+	margin-bottom: 2%;
+	padding: 20px;
+	display: inline-block;
+	overflow: auto;
+	text-align: left;
+	font-size:0.8em;
+	float:left;
+    background: black;
+}
+
+.contentpane {
+	width: 100%;
+	height: 60%;
+	margin-bottom: 2%;
+	padding: 20px;
+	display: inline-block;
+	text-align: right;
+    background: black;
+}
+
+
+.ScreenTextHeader {
+    font-family: 'Press Start 2P', monospace;
+    font-size:400%;
+    color:white;
+}
+
+.ScreenText {
+    font-family: 'Press Start 2P', monospace;
+    font-size:200%;
+    color:white;
+}
+
+.buttonpane {
+	width: 90%;
+	height: 30%;
+    font-family: 'Press Start 2P', monospace;
+	display: inline-block;
+}
+
+.button {
+	width: 25%;
+	height: 50%;
+	text-align: center;
+	border: 1px solid white;
+	float: left;
+	outline: none;
+    background: black;
+    font-family: 'Press Start 2P', monospace;
+    font-size:0.7em;
+}
+
+.imagepane {
+	float: right;
+	width:50%;
+}
+
+@keyframes fadeIn {
+    from    {opacity: 0;}
+    to             {opacity: 1;}
+}
+
+#maintext > p {
+    font-family: 'Press Start 2P', monospace;
+    animation: fadeIn 2s;
+    width:75%;
+}
+
+/*Start screen styling*/
+
+.startScreenHeader {
+   	font-family: 'Press Start 2P', monospace;
+   	font-size:2em;
+	padding: 15px;
+  	animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+.startButton {
+	text-align: center;
+	outline: none;
+	padding-top: 15px;
+	border: none;
+	background: none;
+    font-family: 'Press Start 2P', monospace;
+    font-size:1.2em;
+}
+
+.startScreenImage {
+	
+}
+
+/*Select screen styling*/
+
+.stageButton {
+	outline: none;
+    padding: 0;
+    border: 1px solid transparent;
+	background: none;
+}
+
+.stageButton:hover {
+    background: none;
+    border: 1px solid white;
+}
+
+
+/*ONLY mobile layout*/
+
+@media only screen and (max-width: 600px) {
+
+body{
+  width: 100%;
+  height: 100%;
+  background:black;
+}
+
+.header {
+   	font-family: 'Press Start 2P', monospace;
+	padding: 15px;
+}
+
+.mainpane {
+	height: 80vh;
+	margin:0 auto;
+    font-family: 'Press Start 2P', monospace;
+	text-align: center;
+}
+
+.contentpane {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 2%;
+	padding: 20px;
+	display: inline-block;
+	border: 1px solid white;
+	text-align: right;
+    background: black;
+}
+
+.textpane {
+	width: 100%;
+	height: 45%;
+	margin-bottom: 2%;
+	overflow: auto;
+	display: inline-block;
+	text-align: left;
+	font-size:0.7em;
+    background: black;
+}
+
+.imagepane {
+	text-align:center;
+	width:100%;
+}
+
+.buttonpane {
+	width: 100%;
+	height: 30%;
+    font-family: 'Press Start 2P', cursive;
+	display: inline-block;
+}
+
+.button {
+	width: 100%;
+	height: 50%;
+	text-align: center;
+	border: 1px solid white;
+	float: left;
+	outline: none;
+    background: black;
+    font-family: 'Press Start 2P', cursive;
+    font-size:0.5em;
+}
+
+
+.startButton {
+	text-align: center;
+	outline: none;
+	padding-top: 15px;
+	padding-left:0;
+	border: none;
+	background: none;
+    font-family: 'Press Start 2P', cursive;
+    font-size:1.2em;
+}
+
+}
+	
+	
