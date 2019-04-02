@@ -5,12 +5,12 @@ var fieriScreens = [
     {
         "screenID":0,
         "imageName":"images/image1.jpg",
-        "musicName":"music/datemusic2.mp3",
-        "mainText":"oooh",
+        "musicName":"music/MainTitle.mp3",
+        "mainText":"A stout, well-tanned man in a flame-blazen shirt and bleached tips approaches you.",
         "buttonPanel":[
             {
                 "buttonPos":0,
-                "buttonText":"Wait for him, he must be busy!",
+                "buttonText":"You recognize him, that's GUY FIERI! You love his show!",
                 "buttonGoTo":1
             },
             {
@@ -20,7 +20,7 @@ var fieriScreens = [
             },
             {
                 "buttonPos":2,
-                "buttonText":"Attempt to claw through the concrete floor",
+                "buttonText":"You've seen the memes, that's the dude that lovers burgers",
                 "buttonGoTo":0,
                 "addOnText":"You attempt to claw through the concrete floor for some reason. Doesn't work and now your hands are bloody."
             },
@@ -35,7 +35,7 @@ var fieriScreens = [
     {
         "screenID":1,
         "imageName":"images/generous1.jpg",
-        "mainText":"Ah, at last! Danny Devito has arrived. He sits down in a rush and offers you a bowl of Honey Nut Cheerios.",
+        "mainText":"A massive smile appears on his face. 'Ah, a true fan' he says as he notices the sparkles in your eyes.",
         "buttonPanel":[
             {
                 "buttonPos":0,

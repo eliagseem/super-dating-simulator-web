@@ -46,7 +46,7 @@ pre {
 	height: 80vh;
 	float: left;
 	margin:0 auto;
-    font-family: 'Press Start 2P', monospace;
+	font-family: 'VT323', monospace;
 	text-align: center;
 }
 
@@ -58,7 +58,7 @@ pre {
 	display: inline-block;
 	overflow: auto;
 	text-align: left;
-	font-size:0.8em;
+	font-size:1.2em;
 	float:left;
     background: black;
 }
@@ -89,7 +89,7 @@ pre {
 .buttonpane {
 	width: 90%;
 	height: 30%;
-    font-family: 'Press Start 2P', monospace;
+	font-family: 'VT323', monospace;
 	display: inline-block;
 }
 
@@ -101,8 +101,8 @@ pre {
 	float: left;
 	outline: none;
     background: black;
-    font-family: 'Press Start 2P', monospace;
-    font-size:0.7em;
+	font-family: 'VT323', monospace;
+    font-size:1.2em;
 }
 
 .imagepane {

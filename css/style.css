@@ -34,8 +34,8 @@ pre {
 }
 
 .header {
-   font-family: 'Press Start 2P', monospace;
-   padding: 15px;
+	font-family: 'VT323', monospace;
+	padding: 15px;
 }
 
 
@@ -46,7 +46,8 @@ pre {
 	height: 80vh;
 	float: left;
 	margin:0 auto;
-    font-family: 'Press Start 2P', monospace;
+	font-family: 'VT323', monospace;
+	font-size:1.5em;
 	text-align: center;
 }
 
@@ -75,13 +76,13 @@ pre {
 
 
 .ScreenTextHeader {
-    font-family: 'Press Start 2P', monospace;
+    font-family: 'VT323', monospace;
     font-size:400%;
     color:white;
 }
 
 .ScreenText {
-    font-family: 'Press Start 2P', monospace;
+    font-family: 'VT323', monospace;
     font-size:200%;
     color:white;
 }
@@ -89,7 +90,7 @@ pre {
 .buttonpane {
 	width: 90%;
 	height: 30%;
-    font-family: 'Press Start 2P', monospace;
+    font-family: 'VT323', monospace;
 	display: inline-block;
 }
 
@@ -101,7 +102,7 @@ pre {
 	float: left;
 	outline: none;
     background: black;
-    font-family: 'Press Start 2P', monospace;
+    font-family: 'VT323', monospace;
     font-size:0.7em;
 }
 
@@ -116,7 +117,7 @@ pre {
 }
 
 #maintext > p {
-    font-family: 'Press Start 2P', monospace;
+    font-family: 'VT323', monospace;
     animation: fadeIn 2s;
     width:75%;
 }
@@ -124,7 +125,7 @@ pre {
 /*Start screen styling*/
 
 .startScreenHeader {
-   	font-family: 'Press Start 2P', monospace;
+	font-family: Sierra;
    	font-size:2em;
 	padding: 15px;
   	animation: blinker 1s linear infinite;
@@ -140,7 +141,7 @@ pre {
 	padding-top: 15px;
 	border: none;
 	background: none;
-    font-family: 'Press Start 2P', monospace;
+    font-family: 'VT323', monospace;
     font-size:1.2em;
 }
 
@@ -174,14 +175,14 @@ body{
 }
 
 .header {
-   	font-family: 'Press Start 2P', monospace;
+   	font-family: 'VT323', monospace;
 	padding: 15px;
 }
 
 .mainpane {
 	height: 80vh;
 	margin:0 auto;
-    font-family: 'Press Start 2P', monospace;
+    font-family: 'VT323', monospace;
 	text-align: center;
 }
 
@@ -215,7 +216,7 @@ body{
 .buttonpane {
 	width: 100%;
 	height: 30%;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'VT323', cursive;
 	display: inline-block;
 }
 
@@ -227,7 +228,7 @@ body{
 	float: left;
 	outline: none;
     background: black;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'VT323', cursive;
     font-size:0.5em;
 }
 
@@ -239,10 +240,8 @@ body{
 	padding-left:0;
 	border: none;
 	background: none;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'VT323', extra-bold;
     font-size:1.2em;
 }
 
 }
-	
-	
