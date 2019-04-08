@@ -21,7 +21,7 @@ var fieriScreens = [
             {
                 "buttonPos":2,
                 "buttonText":"You've seen the memes, that's the dude that loves burgers",
-                "buttonGoTo":20,
+                "buttonGoTo":28
             },
             {
                 "buttonPos":3,
@@ -45,7 +45,7 @@ var fieriScreens = [
             {
                 "buttonPos":1,
                 "buttonText":"Play it coy and tell him you have no idea who he is",
-                "buttonGoTo":4
+                "buttonGoTo":21
             },
             {
                 "buttonPos":2,
@@ -102,7 +102,7 @@ var fieriScreens = [
             {
                 "buttonPos":1,
                 "buttonText":"Remain silent",
-                "buttonGoTo":0
+                "buttonGoTo":30
 
             },
             {
@@ -186,7 +186,7 @@ var fieriScreens = [
             {
                 "buttonPos":1,
                 "buttonText":"Kill Guy Fieri",
-                "buttonGoTo":100
+                "buttonGoTo":15
             },
             {
                 "buttonPos":2,
@@ -511,6 +511,330 @@ var fieriScreens = [
                 "buttonPos":1,
                 "buttonText":"",
                 "buttonGoTo":100
+            },
+            {
+                "buttonPos":2,
+                "buttonText":"",
+                "buttonGoTo":100
+            },
+            {
+                "buttonPos":3,
+                "buttonText":"",
+                "buttonGoTo":100
+            }
+        ]
+    },
+    {
+        "screenID":19,
+        "imageName":"images/pleased.jpg",
+        "mainText":"You shout out the first thing that comes to your mind. 'I FIGHT DEMONS BECAUSE A BABY IN HEAVEN TELLS ME TO' is what ends up coming out of your mouth at an incredibly loud volume. Guy flinches as you scream. His face, now scrunched in disgust, slowly regains its form. A small smile appears on his face. 'I think I love you', he says in an incredibly low, timid voice. 'Finally, someone who understands me.'",
+        "buttonPanel":[
+            {
+                "buttonPos":0,
+                "buttonText":"Kiss Guy Fieri",
+                "buttonGoTo":7
+            },
+            {
+                "buttonPos":1,
+                "buttonText":"Kill Guy Fieri",
+                "buttonGoTo":15
+            },
+            {
+                "buttonPos":2,
+                "buttonText":"",
+                "buttonGoTo":100
+            },
+            {
+                "buttonPos":3,
+                "buttonText":"",
+                "buttonGoTo":100
+            }
+        ]
+    },
+    {
+        "screenID":20,
+        "imageName":"images/pleased.jpg",
+        "mainText":"You remain silent despite the incredible discomfort. Your head begins to swell. Guy is visibly shaken, with an intense look of fear on his face. You feel your pores open up, blood pouring out of each one. Your eyes slink out of their sockets, your nostrils tear at the seams and your lips tear as they are stretched. You're dying. Your head explodes. You're dead. Next time, say something.",
+        "buttonPanel":[
+            {
+                "buttonPos":0,
+                "buttonText":"Restart",
+                "buttonGoTo":0
+            },
+            {
+                "buttonPos":1,
+                "buttonText":"",
+                "buttonGoTo":100
+            },
+            {
+                "buttonPos":2,
+                "buttonText":"",
+                "buttonGoTo":100
+            },
+            {
+                "buttonPos":3,
+                "buttonText":"",
+                "buttonGoTo":100
+            }
+        ]
+    },
+    {
+        "screenID":21,
+        "imageName":"images/pleased.jpg",
+        "mainText":"You try to come off cool and composed by telling him you're not sure who he is. He's visibly saddened by this comment. A single tear begins to roll down his left cheek.",
+        "buttonPanel":[
+            {
+                "buttonPos":0,
+                "buttonText":"Tell him to stop crying",
+                "buttonGoTo":22
+            },
+            {
+                "buttonPos":1,
+                "buttonText":"Ask him what's wrong",
+                "buttonGoTo":23
+            },
+            {
+                "buttonPos":2,
+                "buttonText":"",
+                "buttonGoTo":100
+            },
+            {
+                "buttonPos":3,
+                "buttonText":"",
+                "buttonGoTo":100
+            }
+        ]
+    },
+    {
+        "screenID":22,
+        "imageName":"images/pleased.jpg",
+        "mainText":"You tell him to stop crying. You begin to sing All Star by Smash Mouth. Guy Fieri cries harder. Through the sobs you hear 'I'm so tired of this!'",
+        "buttonPanel":[
+            {
+                "buttonPos":0,
+                "buttonText":"Ask him what he's tired of",
+                "buttonGoTo":23
+            },
+            {
+                "buttonPos":1,
+                "buttonText":"-- THE WORLD WAS GONNA ROLL ME I AIN'T THE SHARPEST...",
+                "buttonGoTo":24
+            },
+            {
+                "buttonPos":2,
+                "buttonText":"",
+                "buttonGoTo":100
+            },
+            {
+                "buttonPos":3,
+                "buttonText":"",
+                "buttonGoTo":100
+            }
+        ]
+    },
+    {
+        "screenID":23,
+        "imageName":"images/pleased.jpg",
+        "mainText":"Guy Fieri yells in frustration. 'I'm tired of being thought of as a joke!' He clenches his teeth and bears them, eyes watering up, his fists balled up and shaking.",
+        "buttonPanel":[
+            {
+                "buttonPos":0,
+                "buttonText":"Tell him to calm down, it's not a big deal",
+                "buttonGoTo":24
+            },
+            {
+                "buttonPos":1,
+                "buttonText":"Apologize",
+                "buttonGoTo":27
+            },
+            {
+                "buttonPos":2,
+                "buttonText":"",
+                "buttonGoTo":100
+            },
+            {
+                "buttonPos":3,
+                "buttonText":"",
+                "buttonGoTo":100
+            }
+        ]
+    },
+    {
+        "screenID":24,
+        "imageName":"images/pleased.jpg",
+        "mainText":"Guy Fieri begins to glow red. The light around you two has become dim. You feel a rumbling at your feet.",
+        "buttonPanel":[
+            {
+                "buttonPos":0,
+                "buttonText":"Do nothing",
+                "buttonGoTo":25
+            },
+            {
+                "buttonPos":1,
+                "buttonText":"Attack Guy Fieri",
+                "buttonGoTo":26
+            },
+            {
+                "buttonPos":2,
+                "buttonText":"",
+                "buttonGoTo":100
+            },
+            {
+                "buttonPos":3,
+                "buttonText":"",
+                "buttonGoTo":100
+            }
+        ]
+    },
+    {
+        "screenID":25,
+        "imageName":"images/pleased.jpg",
+        "mainText":"You do nothing. Guy Fieri raises both arms, palms facing towards you. Sudden, intense jets of mayonnaise burst out of his palms and into your eyes. You've been blinded. Guy then yells into your ears so hard that you pass out. Game over.",
+        "buttonPanel":[
+            {
+                "buttonPos":0,
+                "buttonText":"Restart",
+                "buttonGoTo":0
+            },
+            {
+                "buttonPos":1,
+                "buttonText":"",
+                "buttonGoTo":100
+            },
+            {
+                "buttonPos":2,
+                "buttonText":"",
+                "buttonGoTo":100
+            },
+            {
+                "buttonPos":3,
+                "buttonText":"",
+                "buttonGoTo":100
+            }
+        ]
+    },
+    {
+        "screenID":26,
+        "imageName":"images/pleased.jpg",
+        "mainText":"You run towards Guy, fists clenched and ready to attack. He swats you away with strength so extraordinary that your body disintegrates due to the sheer force of his swat. You've passed away.",
+        "buttonPanel":[
+            {
+                "buttonPos":0,
+                "buttonText":"Restart",
+                "buttonGoTo":0
+            },
+            {
+                "buttonPos":1,
+                "buttonText":"",
+                "buttonGoTo":100
+            },
+            {
+                "buttonPos":2,
+                "buttonText":"",
+                "buttonGoTo":100
+            },
+            {
+                "buttonPos":3,
+                "buttonText":"",
+                "buttonGoTo":100
+            }
+        ]
+    },
+    {
+        "screenID":27,
+        "imageName":"images/pleased.jpg",
+        "mainText":"You apologize and Guy calms down.",
+        "buttonPanel":[
+            {
+                "buttonPos":0,
+                "buttonText":"Ask him what he's doing in your university's parking garage",
+                "buttonGoTo":4
+            },
+            {
+                "buttonPos":1,
+                "buttonText":"",
+                "buttonGoTo":100
+            },
+            {
+                "buttonPos":2,
+                "buttonText":"",
+                "buttonGoTo":100
+            },
+            {
+                "buttonPos":3,
+                "buttonText":"",
+                "buttonGoTo":100
+            }
+        ]
+    },
+    {
+        "screenID":28,
+        "imageName":"images/pleased.jpg",
+        "mainText":"You begin to laugh. You pull out a copy of Shrek on VideoCD and point to it. You tell him he looks just like the guy who sings the song at the beginning of the film. A single tear rolls down his left cheek as you finish your sentence.",
+        "buttonPanel":[
+            {
+                "buttonPos":0,
+                "buttonText":"Ask him what's wrong",
+                "buttonGoTo":23
+            },
+            {
+                "buttonPos":1,
+                "buttonText":"Begin to cry as well",
+                "buttonGoTo":29
+            },
+            {
+                "buttonPos":2,
+                "buttonText":"Tell him to stop crying",
+                "buttonGoTo":22
+            },
+            {
+                "buttonPos":3,
+                "buttonText":"",
+                "buttonGoTo":100
+            }
+        ]
+    },
+    {
+        "screenID":29,
+        "imageName":"images/pleased.jpg",
+        "mainText":"You begin to cry. The man begins to cry harder. Through the sobs he utters 'My name... is Guy... sniff... Fieri...'",
+        "buttonPanel":[
+            {
+                "buttonPos":0,
+                "buttonText":"Remain silent",
+                "buttonGoTo":30
+            },
+            {
+                "buttonPos":1,
+                "buttonText":"Play it coy and tell him you have no idea who he is",
+                "buttonGoTo":21
+            },
+            {
+                "buttonPos":2,
+                "buttonText":"",
+                "buttonGoTo":100
+            },
+            {
+                "buttonPos":3,
+                "buttonText":"",
+                "buttonGoTo":100
+            }
+        ]
+    },
+    {
+        "screenID":30,
+        "imageName":"images/pleased.jpg",
+        "mainText":"You remain silent. The tension grows, the air is thick, You feel your neck begin to shake as your pulse pounds through your wrists and neck. You need to say something quick or you feel like your head will explode.",
+        "buttonPanel":[
+            {
+                "buttonPos":0,
+                "buttonText":"Shout out the first thing that comes to mind",
+                "buttonGoTo":19
+            },
+            {
+                "buttonPos":1,
+                "buttonText":"Remain silent despite the discomfort",
+                "buttonGoTo":20
             },
             {
                 "buttonPos":2,
