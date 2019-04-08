@@ -20,9 +20,8 @@ var fieriScreens = [
             },
             {
                 "buttonPos":2,
-                "buttonText":"You've seen the memes, that's the dude that lovers burgers",
-                "buttonGoTo":0,
-                "addOnText":"You attempt to claw through the concrete floor for some reason. Doesn't work and now your hands are bloody."
+                "buttonText":"You've seen the memes, that's the dude that loves burgers",
+                "buttonGoTo":20,
             },
             {
                 "buttonPos":3,
@@ -35,17 +34,17 @@ var fieriScreens = [
     {
         "screenID":1,
         "imageName":"images/generous1.jpg",
-        "mainText":"A massive smile appears on his face. 'Ah, a true fan' he says as he notices the sparkles in your eyes.",
+        "mainText":"You are visibly nervous. A massive smile appears on his face. 'Ah, a true fan' he says as he notices the sparkles in your eyes.",
         "buttonPanel":[
             {
                 "buttonPos":0,
-                "buttonText":"Refuse the bowl of cheerios, you'll eat later",
+                "buttonText":"Profess your leigitmate love for his culinary prowess",
                 "buttonGoTo":3
 
             },
             {
                 "buttonPos":1,
-                "buttonText":"Accept the generous donation",
+                "buttonText":"Play it coy and tell him you have no idea who he is",
                 "buttonGoTo":4
             },
             {
@@ -62,8 +61,8 @@ var fieriScreens = [
     },
     {
         "screenID":2,
-        "mainText":"You're not going to wait and leave the date. As you leave, Danny DeVito sits down. He eats by himself. He cries.",
-        "imageName":"images/heartbroken1.jpg",
+        "mainText":"You turn around and walk away from the stout man. Nothing happened.",
+        "imageName":"images/nothing.jpg",
         "musicName":"music/gameover.mp3",
         "buttonPanel":[
             {
@@ -91,18 +90,18 @@ var fieriScreens = [
     },
     {
         "screenID":3,
-        "mainText":"You refuse the bowl of cereal. Danny Devito is offended. He prepared this bowl just for you. He begins to cry uncontrollably in front of you, and asks you to leave.",
+        "mainText":"You tell him you really enjoy the energy he brings to his content, and that you feel his taste in food and his desire to share his passion with others has marked you positively. He smiles, but remains silent. His orange-tinted cheeks begin to take on a rosy material.",
         "imageName":"images/heartbroken1.jpg",
         "musicName":"music/gameover.mp3",
         "buttonPanel":[
             {
                 "buttonPos":0,
-                "buttonText":"Restart",
-                "buttonGoTo":0
+                "buttonText":"Ask him what he's doing in your university's parking garage",
+                "buttonGoTo":4
             },
             {
                 "buttonPos":1,
-                "buttonText":"",
+                "buttonText":"Remain silent",
                 "buttonGoTo":0
 
             },
@@ -121,17 +120,17 @@ var fieriScreens = [
     {
         "screenID":4,
         "imageName":"images/pleased.jpg",
-        "mainText":"He watches you eat and asks a question. 'So what made you want to apply to this contest?'",
+        "mainText":"You ask him what he's doing in your school's parking garage, which is currently empty. He tells you that you should know, since it's your dream.",
         "buttonPanel":[
             {
                 "buttonPos":0,
-                "buttonText":"Talk with your mouth full",
+                "buttonText":"What does he mean, 'it's MY dream'?",
                 "buttonGoTo":5
 
             },
             {
                 "buttonPos":1,
-                "buttonText":"Finish your food before answering",
+                "buttonText":"Realize you are now lucid dreaming",
                 "buttonGoTo":6
             },
             {
@@ -149,24 +148,23 @@ var fieriScreens = [
     {
         "screenID":5,
         "imageName":"images/pleased.jpg",
-        "mainText":"You reply while eating: 'Affrrhhbllb mmbllbrbbrbrb...' Danny Devito nods. He turns to the waiter and orders a burger. He turns to you and asks what you want.",
+        "mainText":"You're dumbfounded. You ask him what he means by 'it's MY dream'. He smirks. 'Welcome to Flavortown, baby' he whispers as he raises his arms. Welcome to Flavortown.",
         "buttonPanel":[
             {
                 "buttonPos":0,
-                "buttonText":"You'll have the same.",
-                "buttonGoTo":17
+                "buttonText":"Restart",
+                "buttonGoTo":0
 
             },
             {
                 "buttonPos":1,
-                "buttonText":"Order a salad.",
-                "buttonGoTo":19
+                "buttonText":"",
+                "buttonGoTo":100
             },
             {
                 "buttonPos":2,
-                "buttonText":"Ask for a single piece of lettuce on a plate.",
-                "buttonGoTo":5,
-                "addOnText":"The waiter and Danny DeVito both laugh. But you really want a single piece of lettuce on a plate. Guess you'll have to order something else?"
+                "buttonText":"",
+                "buttonGoTo":100
             },
             {
                 "buttonPos":3,
@@ -177,24 +175,23 @@ var fieriScreens = [
     },
     {
         "screenID":6,
-        "imageName":"images/annoyed1.jpg",
-        "mainText":"You wait until finishing your food before answering. A few minutes of silence pass. 'I saw it on Facebook' you answer. Danny Devito is clearly agitated. 'Why didn't you answer when I asked you?'",
+        "imageName":"images/pleased.jpg",
+        "mainText":"You realize now that you are lucid dreaming. You are able to pause your dream, resume it, quit, change settings... pretty much anything. However, in the moment, only two options come to mind.",
         "buttonPanel":[
             {
                 "buttonPos":0,
-                "buttonText":"You didn't want to be rude and talk while eating.",
-                "buttonGoTo":22
-            },
-            {
-                "buttonPos":1,
-                "buttonText":"You can do whatever you want, he's not the boss of you.",
+                "buttonText":"Kiss Guy Fieri",
                 "buttonGoTo":7
             },
             {
+                "buttonPos":1,
+                "buttonText":"Kill Guy Fieri",
+                "buttonGoTo":100
+            },
+            {
                 "buttonPos":2,
-                "buttonText":"Light a cigarette indoors",
-                "buttonGoTo":6,
-                "addOnText":"You light a cigarette indoors for no apparent reason. You are asked to put it out and you do."
+                "buttonText":"",
+                "buttonGoTo":100
             },
             {
                 "buttonPos":3,
@@ -205,20 +202,18 @@ var fieriScreens = [
     },
     {
         "screenID":7,
-        "imageName":"images/angry1.jpg",
-        "musicName":"music/tensemusic.mp3",
-        "mainText":"You say you didn't feel like answering until after eating, and he isn't the boss of you. Danny DeVito's eyes light up, he is clearly angry. He tells you you're trying his patience",
+        "imageName":"images/pleased.jpg",
+        "mainText":"You gently carress Guy's shoulders. They're firm, but soft, like his dye job. You let out a slight sigh; you've finally found the person you're meant to be with. Your connection is unspeakable, something words were never construed to describe. You want this feeling to last forever. You gaze into his eyes, and lean in for a kiss. You feel a burning sensation on your lips. Guy Fieri has turned into his evil form, Guy Fiery. He's a literal burning mass of flesh. You retreat, but still see his soft eyes through the flames.",
         "buttonPanel":[
             {
                 "buttonPos":0,
-                "buttonText":"Tell him you hated him as The Penguin in Batman Returns.",
+                "buttonText":"Reach for him one last time to pull him out of the fire",
                 "buttonGoTo":8
-
             },
             {
                 "buttonPos":1,
-                "buttonText":"Defuse the situation by saying sorry.",
-                "buttonGoTo":22
+                "buttonText":"Abandon the dream, and him",
+                "buttonGoTo":12
             },
             {
                 "buttonPos":2,
@@ -234,19 +229,18 @@ var fieriScreens = [
     },
     {
         "screenID":8,
-        "imageName":"images/fight1.jpg",
-        "mainText":"You tell Danny DeVito that you hated him as The Penguin in Batman Returns. He gets up and pushes the table to the side. Danny DeVito has challenged you to a street fight.",
+        "imageName":"images/pleased.jpg",
+        "mainText":"You reach into the flames, feeling the heat on your skin, smelling the hair on your arm burning. It smells good somehow. It's satisfying to know you're so committed to something that it's changing you, physically. However, you reach in and nothing's there. It hurts to keep your arm in the fire but you keep it there, hoping to find Guy eventually. You wave your arm around, but no one's there.",
         "buttonPanel":[
             {
                 "buttonPos":0,
-                "buttonText":"FIGHT DANNY DEVITO IN THE STREETS (there is no turning back now)",
+                "buttonText":"Keep your arm in the fire",
                 "buttonGoTo":9
-
             },
             {
                 "buttonPos":1,
-                "buttonText":"",
-                "buttonGoTo":100
+                "buttonText":"Abandon the dream, and him",
+                "buttonGoTo":12
             },
             {
                 "buttonPos":2,
@@ -262,20 +256,18 @@ var fieriScreens = [
     },
     {
         "screenID":9,
-        "imageName":"images/fight1.jpg",
-        "mainText":"You run out of the restaurant and into the streets. Danny DeVito is waiting for you. He says he has a surprise for you.",
+        "imageName":"images/pleased.jpg",
+        "mainText":"You keep your arm in the fire, devoted to searching for Guy within the flaming mess. You no longer feel pain. You can no longer see your arm, either. You're not sure if your arm is gone, or if it's covered by the flames. You're too scared to pull it out and see.",
         "buttonPanel":[
             {
                 "buttonPos":0,
-                "buttonText":"Wait for his surprise",
-                "buttonGoTo":10
-
+                "buttonText":"Keep your arm in the fire, forever",
+                "buttonGoTo":11
             },
             {
                 "buttonPos":1,
-                "buttonText":"Attack immediately",
-                "buttonGoTo":9,
-                "addOnText":"You try to attack but a mysterious force surrounds Danny DeVito and pushes you back."
+                "buttonText":"Pull out your arm",
+                "buttonGoTo":10
             },
             {
                 "buttonPos":2,
@@ -291,20 +283,18 @@ var fieriScreens = [
     },
     {
         "screenID":10,
-        "imageName":"images/robodevito.jpg",
-        "musicName":"music/fightmusic2.mp3",
-        "mainText":"DANNY DEVITO HAS MORPHED INTO ROBODEVITO!! He stands in a power stance and looks ready to attack!",
+        "imageName":"images/pleased.jpg",
+        "mainText":"You pull your arm out of the fire. It's gone. And so is Guy. The fire subsides, and you are left alone. Although you're sad about losing your arm, and Guy, you can seek comfort in knowing that you're still in control of yourself and your decisions. You leave the area, never to return.",
         "buttonPanel":[
             {
-                "buttonPos":0,
-                "buttonText":"Block RoboDeVito's mighty strike.",
-                "buttonGoTo":11
-
+                "buttonPos":1,
+                "buttonText":"Restart",
+                "buttonGoTo":0
             },
             {
                 "buttonPos":1,
-                "buttonText":"Throw a spare cheerio you hid into his power core.",
-                "buttonGoTo":23
+                "buttonText":"",
+                "buttonGoTo":100
             },
             {
                 "buttonPos":2,
@@ -320,19 +310,18 @@ var fieriScreens = [
     },
     {
         "screenID":11,
-        "imageName":"images/robodevito.jpg",
-        "mainText":"You raise your arms in an attempt to block RoboDeVito's strike. Your arms are destroyed in the process. He laughs, then asks: 'How's this for a first date?'",
+        "imageName":"images/pleased.jpg",
+        "mainText":"Crippling indecision overcomes you. You don't want to abandon Guy by removing your arm, but as such you will never know if you arm is still there or not. You stand, waiting. Forever. You can't realize he's gone, and you're so used to the pain that its become all that you know.",
         "buttonPanel":[
             {
                 "buttonPos":0,
-                "buttonText":"Profess your love for him.",
-                "buttonGoTo":12
+                "buttonText":"Restart",
+                "buttonGoTo":0
             },
             {
                 "buttonPos":1,
-                "buttonText":"Attempt to reattach your arms.",
-                "buttonGoTo":11,
-                "addOnText":"You attempt to reattach your arms to no avail. RoboDeVito laughs at you again."
+                "buttonText":"",
+                "buttonGoTo":100
             },
             {
                 "buttonPos":2,
@@ -348,20 +337,18 @@ var fieriScreens = [
     },
     {
         "screenID":12,
-        "imageName":"images/deceipt1.jpg",
-        "musicName":"music/deceiptmusic.mp3",
-        "mainText":"You confess that you are in love with Danny DeVito. His smile turns to a frown. 'Really? Oh no... all this time, I thought...'",
+        "imageName":"images/pleased.jpg",
+        "mainText":"You decide to abandon the dream. He's gone. He isn't who you thought he was. Quit while you're ahead, before you get hurt. To leave your dream, you must die.",
         "buttonPanel":[
             {
                 "buttonPos":0,
-                "buttonText":"Open RoboDeVito's control panel and turn him off",
+                "buttonText":"Die",
                 "buttonGoTo":13
-
             },
             {
                 "buttonPos":1,
-                "buttonText":"Give RoboDeVito an armless carress.",
-                "buttonGoTo":28
+                "buttonText":"",
+                "buttonGoTo":100
             },
             {
                 "buttonPos":2,
@@ -377,19 +364,18 @@ var fieriScreens = [
     },
     {
         "screenID":13,
-        "imageName":"images/deceipt1.jpg",
-        "mainText":"While RoboDeVito is distracted, you open his control panel to turn him off. There is only one button on the panel and it reads 'EMERGENCY ONLY.'",
+        "imageName":"images/pleased.jpg",
+        "mainText":"You conjure up a knife, then wonder if it's the best way to go out. You've never thought of this before, surprisingly. You hate the idea, you hate its implications, but there's no other way out. You drop the knife and it disappears. You need to find another way to die.",
         "buttonPanel":[
             {
                 "buttonPos":0,
-                "buttonText":"Push the button",
+                "buttonText":"Love Guy Fieri unconditionally",
                 "buttonGoTo":14
-
             },
             {
                 "buttonPos":1,
-                "buttonText":"Don't push the button",
-                "buttonGoTo":25
+                "buttonText":"",
+                "buttonGoTo":100
             },
             {
                 "buttonPos":2,
@@ -405,20 +391,18 @@ var fieriScreens = [
     },
     {
         "screenID":14,
-        "imageName":"images/babydevito.jpg",
-        "musicName":"music/fightmusic.mp3",
-        "mainText":"You push the button. Instantly RoboDeVito ceases to move. The button pops out, revealing an even smaller and angrier Danny DeVito. He jumps at you.",
+        "imageName":"images/pleased.jpg",
+        "mainText":"You let your emotions take over, your gut drives you. You give in to your feelings towards Guy. Even a flaming, harmful mess you still desire to be with him. You abandon everything to be with him. As such, you leave yourself completely open. You open your arms, welcoming a final carress from Guy. Guy lunges from within the fire and slits your throat.",
         "buttonPanel":[
             {
                 "buttonPos":0,
-                "buttonText":"Swat him away",
-                "buttonGoTo":15
-
+                "buttonText":"Restart",
+                "buttonGoTo":0
             },
             {
                 "buttonPos":1,
-                "buttonText":"Open your mouth",
-                "buttonGoTo":26
+                "buttonText":"",
+                "buttonGoTo":100
             },
             {
                 "buttonPos":2,
@@ -434,76 +418,17 @@ var fieriScreens = [
     },
     {
         "screenID":15,
-        "imageName":"images/defeated1.jpg",
-        "musicName":"music/defeat.mp3",
-        "mainText":"You swat the smaller, angrier Danny DeVito away. He flies into the night sky at the force of your slap. The immobile carcass of RoboDeVito remains.",
+        "imageName":"images/pleased.jpg",
+        "mainText":"You feel the urge to kill Guy Fieri. You conjure a spatula. A bucket of flaming hot coals appears by your side. You let out in a primal scream: 'WELCOME TO FLAVORTOWN' as you pick up a hot coal, throw it into the air, then hit it with your spatula. You miss Guy by a mile. He's now aware of your intentions to harm him and has turned around. He's apparently building something.",
         "buttonPanel":[
             {
                 "buttonPos":0,
-                "buttonText":"Take RoboDeVito home as a souvenir",
+                "buttonText":"Wait to see what he's got cookin",
                 "buttonGoTo":16
-
             },
             {
                 "buttonPos":1,
-                "buttonText":"Burn RoboDeVito in the streets to show your strength and superiority",
-                "buttonGoTo":27
-            },
-            {
-                "buttonPos":2,
-                "buttonText":"",
-                "buttonGoTo":100
-            },
-            {
-                "buttonPos":3,
-                "buttonText":"",
-                "buttonGoTo":100
-            }
-        ]
-    },
-    {
-        "screenID":16,
-        "imageName":"images/uncertainending.jpg",
-        "musicName":"music/gameover.mp3",
-        "mainText":"You put RoboDeVito's motionless hull in your living room as a souvenir. All is calm once more. As you go to bed, you hear a droning sound. You look through your doorway and see RoboDeVito's animated corpse lunging at you. You scream, only to find yourself in your bed once more. RoboDeVito is still in the livingroom, motionless. It was only a dream...",
-        "buttonPanel":[
-            {
-                "buttonPos":0,
-                "buttonText":"Restart",
-                "buttonGoTo":0
-
-            },
-            {
-                "buttonPos":1,
-                "buttonText":"",
-                "buttonGoTo":100
-            },
-            {
-                "buttonPos":2,
-                "buttonText":"",
-                "buttonGoTo":100
-            },
-            {
-                "buttonPos":3,
-                "buttonText":"",
-                "buttonGoTo":100
-            }
-        ]
-    },
-    {
-        "screenID":17,
-        "imageName":"images/tromboneinquiry.jpg",
-        "mainText":"You order the same. Danny DeVito seems happy. There's an awkward silence. He pulls out a trombone and asks: 'Hey, can you play one of these?'",
-        "buttonPanel":[
-            {
-                "buttonPos":0,
-                "buttonText":"Lie and say that you can.",
-                "buttonGoTo":24
-
-            },
-            {
-                "buttonPos":1,
-                "buttonText":"Admit that you can't play trombone.",
+                "buttonText":"Take this opportunity to kill him",
                 "buttonGoTo":18
             },
             {
@@ -519,302 +444,68 @@ var fieriScreens = [
         ]
     },
     {
+        "screenID":16,
+        "imageName":"images/pleased.jpg",
+        "mainText":"You wait. Guy turns around. He's baked you a cake with decorative frosting flames. There's text on the cake. It reads: 'I care about you. I am in love with every facet of you, purely because it is you. Your features may change, physically and emotionally, but as long as you're you I will be by yourside through those changes.'",
+        "buttonPanel":[
+            {
+                "buttonPos":0,
+                "buttonText":"Kiss Guy Fieri",
+                "buttonGoTo":7
+            },
+            {
+                "buttonPos":1,
+                "buttonText":"Slap the cake out of his hands",
+                "buttonGoTo":17
+            },
+            {
+                "buttonPos":2,
+                "buttonText":"",
+                "buttonGoTo":100
+            },
+            {
+                "buttonPos":3,
+                "buttonText":"",
+                "buttonGoTo":100
+            }
+        ]
+    },
+    {
+        "screenID":17,
+        "imageName":"images/pleased.jpg",
+        "mainText":"You hate what he wrote. You slap the cake out of his hands. His eyes begin to water and leak. 'I made that for you' he whimpers. You can't stand how much weakness he is showing. You pick up a flaming hot coal. He watches you, fearful and hurt, as you lob it into the air. When it comes back down you hit it with your spatula, sending the flaming hot coal bullet squarely on Guy's chest. It goes through his chest, through his heart, and becomes lodged in there. He looks at you, tears in his eyes. 'No one has ever hurt me as much as you've hurt me.' He falls over, dead. You killed Guy Fieri.",
+        "buttonPanel":[
+            {
+                "buttonPos":0,
+                "buttonText":"Restart",
+                "buttonGoTo":0
+            },
+            {
+                "buttonPos":1,
+                "buttonText":"",
+                "buttonGoTo":100
+            },
+            {
+                "buttonPos":2,
+                "buttonText":"",
+                "buttonGoTo":100
+            },
+            {
+                "buttonPos":3,
+                "buttonText":"",
+                "buttonGoTo":100
+            }
+        ]
+    },
+    {
         "screenID":18,
-        "imageName":"images/tromboneend.jpg",
-        "mainText":"You admit that you can't play. 'WHAT!?' exclaims Danny DeVito. He gets up and leaves the restaurant. The date has been cancelled.",
-        "musicName":"music/gameover.mp3",
+        "imageName":"images/pleased.jpg",
+        "mainText":"You decide to take this opportunity to kill him. You grab another coal, this time you won't miss. You lob it into the air. As you do, Guy turns around. He's baked you a cake with decorative frosting flames. You hit the coal with the spatula as it decents. There's text on the cake. It reads: 'I care about you. I am in love with every facet of you, purely because it is you. Your features may change, physically and emotionally, but as long as you're you I will be by your side through those changes.' You somehow read all of this before the flaming hot coal bullet lands squarely on Guy's chest. It goes through his chest, through his heart, and becomes lodged in there. He looks up, tears in his eyes. 'No one has ever hurt me as much as you've hurt me.' He falls over, dead. You killed Guy Fieri.",
         "buttonPanel":[
             {
                 "buttonPos":0,
                 "buttonText":"Restart",
                 "buttonGoTo":0
-
-            },
-            {
-                "buttonPos":1,
-                "buttonText":"",
-                "buttonGoTo":100
-            },
-            {
-                "buttonPos":2,
-                "buttonText":"",
-                "buttonGoTo":100
-            },
-            {
-                "buttonPos":3,
-                "buttonText":"",
-                "buttonGoTo":100
-            }
-        ]
-    },
-    {
-        "screenID":19,
-        "imageName":"images/lightshine.jpg",
-        "mainText":"You order a salad. The waiter leaves. Danny seems happy! The date is going well. You see a bright white light shine down from the ceiling onto Danny DeVito.",
-        "buttonPanel":[
-            {
-                "buttonPos":0,
-                "buttonText":"Look up to see where the light is coming from.",
-                "buttonGoTo":20
-
-            },
-            {
-                "buttonPos":1,
-                "buttonText":"Ignore it; probably a broken light.",
-                "buttonGoTo":21
-            },
-            {
-                "buttonPos":2,
-                "buttonText":"",
-                "buttonGoTo":100
-            },
-            {
-                "buttonPos":3,
-                "buttonText":"",
-                "buttonGoTo":100
-            }
-        ]
-    },
-    {
-        "screenID":20,
-        "imageName":"images/escape.jpg",
-        "mainText":"You look up and see that a UFO has broken through the ceiling and is attempting to kidnap Danny. You reach out to him in time and save him. The UFO promptly exits the room. Danny exhales. The waiter has brought the food! You both begin eating. After a few minutes Danny DeVito asks you where you found out about this contest.",
-        "buttonPanel":[
-            {
-                "buttonPos":0,
-                "buttonText":"Wait until you finish your food before answering",
-                "buttonGoTo":6
-            },
-            {
-                "buttonPos":1,
-                "buttonText":"",
-                "buttonGoTo":100
-            },
-            {
-                "buttonPos":2,
-                "buttonText":"",
-                "buttonGoTo":100
-            },
-            {
-                "buttonPos":3,
-                "buttonText":"",
-                "buttonGoTo":100
-            }
-        ]
-    },
-    {
-        "screenID":21,
-        "imageName":"images/ufoending.jpg",
-        "musicName":"music/gameover.mp3",
-        "mainText":"You look down to your empty plate, ignoring the light. As you look back up you see Danny DeVito floating in the air. The source of the light is an alien UFO. They abduct Danny DeVito then promptly leave. Your date has been abducted by aliens.",
-        "buttonPanel":[
-            {
-                "buttonPos":0,
-                "buttonText":"Restart",
-                "buttonGoTo":0
-            },
-            {
-                "buttonPos":1,
-                "buttonText":"",
-                "buttonGoTo":100
-            },
-            {
-                "buttonPos":2,
-                "buttonText":"",
-                "buttonGoTo":100
-            },
-            {
-                "buttonPos":3,
-                "buttonText":"",
-                "buttonGoTo":100
-            }
-        ]
-    },
-    {
-        "screenID":22,
-        "imageName":"images/tromboneend.jpg",
-        "mainText":"Danny acknowledges. He gets up, turns to you in a very condescending manner then says 'Sorry, I only date people who talk with their mouths full. Not my type.' The date is over.",
-        "musicName":"music/gameover.mp3",
-        "buttonPanel":[
-            {
-                "buttonPos":0,
-                "buttonText":"Restart",
-                "buttonGoTo":0
-
-            },
-            {
-                "buttonPos":1,
-                "buttonText":"",
-                "buttonGoTo":100
-            },
-            {
-                "buttonPos":2,
-                "buttonText":"",
-                "buttonGoTo":100,
-            },
-            {
-                "buttonPos":3,
-                "buttonText":"",
-                "buttonGoTo":100
-            }
-        ]
-    },
-    {
-        "screenID":23,
-        "imageName":"images/defeated1.jpg",
-        "musicName":"music/goodending.mp3",
-        "mainText":"You throw a spare cheerio you had hidden in your sleeve into RoboDeVito's power core. A bright light is emitted, as RoboDeVito explodes almost immediately. You have defeated RoboDeVito. A life of peace and prosperity awaits you.",
-        "buttonPanel":[
-            {
-                "buttonPos":0,
-                "buttonText":"Restart",
-                "buttonGoTo":0
-
-            },
-            {
-                "buttonPos":1,
-                "buttonText":"",
-                "buttonGoTo":100
-            },
-            {
-                "buttonPos":2,
-                "buttonText":"",
-                "buttonGoTo":100
-            },
-            {
-                "buttonPos":3,
-                "buttonText":"",
-                "buttonGoTo":100
-            }
-        ]
-    },
-    {
-        "screenID":24,
-        "imageName":"images/deceased1.jpg",
-        "mainText":"You lie and say that you can. He hands you the trombone. You attempt to play it. The resulting sound is so garish and disgusting that it kills Danny DeVito. The date is over.",
-        "musicName":"music/gameover.mp3",
-        "buttonPanel":[
-            {
-                "buttonPos":0,
-                "buttonText":"Restart",
-                "buttonGoTo":0
-
-            },
-            {
-                "buttonPos":1,
-                "buttonText":"",
-                "buttonGoTo":100
-            },
-            {
-                "buttonPos":2,
-                "buttonText":"",
-                "buttonGoTo":100,
-            },
-            {
-                "buttonPos":3,
-                "buttonText":"",
-                "buttonGoTo":100
-            }
-        ]
-    },
-    {
-        "screenID":25,
-        "imageName":"images/deadending.jpg",
-        "musicName":"music/gameover.mp3",
-        "mainText":"You hesitate in pushing the button. RoboDeVito notices you opening his control panel and clubs you with one of his robot arms. You are dead. The date is over.",
-        "buttonPanel":[
-            {
-                "buttonPos":0,
-                "buttonText":"Restart",
-                "buttonGoTo":0
-
-            },
-            {
-                "buttonPos":1,
-                "buttonText":"",
-                "buttonGoTo":100
-            },
-            {
-                "buttonPos":2,
-                "buttonText":"",
-                "buttonGoTo":100
-            },
-            {
-                "buttonPos":3,
-                "buttonText":"",
-                "buttonGoTo":100
-            }
-        ]
-    },
-    {
-        "screenID":26,
-        "imageName":"images/deadending.jpg",
-        "musicName":"music/gameover.mp3",
-        "mainText":"You open your mouth. The smaller, angrier Danny DeVito enters your body and destroys you from the inside. You are dead. The date is over.",
-        "buttonPanel":[
-            {
-                "buttonPos":0,
-                "buttonText":"Restart",
-                "buttonGoTo":0
-
-            },
-            {
-                "buttonPos":1,
-                "buttonText":"",
-                "buttonGoTo":100
-            },
-            {
-                "buttonPos":2,
-                "buttonText":"",
-                "buttonGoTo":100
-            },
-            {
-                "buttonPos":3,
-                "buttonText":"",
-                "buttonGoTo":100
-            }
-        ]
-    },
-    {
-        "screenID":27,
-        "imageName":"images/goodend.jpg",
-        "mainText":"You light RoboDeVito's motionless hull on fire. A crowd surrounds you and cheers your victory. You have become stronger and have gained one of RoboDeVito's powers. Your powerful future awaits you.",
-        "musicName":"music/goodending.mp3",
-        "buttonPanel":[
-            {
-                "buttonPos":0,
-                "buttonText":"Restart",
-                "buttonGoTo":0
-
-            },
-            {
-                "buttonPos":1,
-                "buttonText":"",
-                "buttonGoTo":100
-            },
-            {
-                "buttonPos":2,
-                "buttonText":"",
-                "buttonGoTo":100
-            },
-            {
-                "buttonPos":3,
-                "buttonText":"",
-                "buttonGoTo":100
-            }
-        ]
-    },
-    {
-        "screenID":28,
-        "imageName":"images/bestend.jpg",
-        "mainText":"You give RoboDeVito an armless embrace. He steps out of his robot suit and apologizes. All is forgiven. You both go back inside, have a great meal and a good time. The date was a success.",
-        "musicName":"music/bestend.mp3",
-        "buttonPanel":[
-            {
-                "buttonPos":0,
-                "buttonText":"Restart",
-                "buttonGoTo":0
-
             },
             {
                 "buttonPos":1,
