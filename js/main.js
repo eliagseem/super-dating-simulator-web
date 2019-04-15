@@ -47,7 +47,7 @@ function setButtonPanel() {
 	for (var i = 0; i < currentScreen.buttonPanel.length; i++)
 	{
 		var button = currentScreen.buttonPanel[i];
-		console.log(button);
+		//console.log(button);
 		var buttonName = "button" + i;
 		
 		var htmlButton = document.getElementById(buttonName);

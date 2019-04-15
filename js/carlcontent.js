@@ -6,11 +6,11 @@ var fieriScreens = [
         "screenID":0,
         "imageName":"images/start.jpg",
         "musicName":"music/MainTitle.mp3",
-        "mainText":"A stout, well-tanned man in a flame-blazen shirt and bleached tips approaches you.",
+        "mainText":"A clumsy-looking, stout man in suspenders approaches you.",
         "buttonPanel":[
             {
                 "buttonPos":0,
-                "buttonText":"You recognize him, that's GUY FIERI! You love his show!",
+                "buttonText":"You recognize him, that's Carl Wheezer! You loved him in JIMMY NEUTRON(tm)!",
                 "buttonGoTo":1
             },
             {
@@ -20,7 +20,7 @@ var fieriScreens = [
             },
             {
                 "buttonPos":2,
-                "buttonText":"You've seen the memes, that's the dude that loves burgers",
+                "buttonText":"You've seen the memes, that's the dude that loves croisants",
                 "buttonGoTo":28
             },
             {
@@ -38,7 +38,7 @@ var fieriScreens = [
         "buttonPanel":[
             {
                 "buttonPos":0,
-                "buttonText":"Profess your leigitmate love for his culinary prowess",
+                "buttonText":"Profess your leigitmate love for his character",
                 "buttonGoTo":3
 
             },
