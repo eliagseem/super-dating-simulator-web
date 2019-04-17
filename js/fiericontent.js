@@ -148,6 +148,7 @@ var fieriScreens = [
     {
         "screenID":5,
         "imageName":"images/flavortownDeath.jpg",
+        "musicName":"music/gameover.mp3",
         "mainText":"You're dumbfounded. You ask him what he means by 'it's MY dream'. He smirks. 'Welcome to Flavortown, baby' he whispers as he raises his arms. Welcome to Flavortown.",
         "buttonPanel":[
             {

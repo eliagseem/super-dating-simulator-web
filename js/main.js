@@ -27,14 +27,9 @@ function loadScreen(screenToLoad) {
 	appendText(currentScreen.mainText);
 	setButtonPanel();
 	
-    if(currentScreen.hasOwnProperty("musicName"))
+    if(currentScreen.hasOwnProperty("cutscene"))
     {
-	    var player=document.getElementById('musicpane');
-	    var sourceMp3=document.getElementById('audiosrc');
-	    
-	    sourceMp3.src=currentScreen.musicName;
-	    player.load();
-	    player.play();
+		showCutscene(currentScreen.cutscene);
     }
 		
 	document.getElementById("imagebox").src = currentScreen.imageName;
@@ -84,3 +79,60 @@ function updateScroll(){
     element.scrollTop = element.scrollHeight;
 }
 
+function showCutscene(cutscene) {
+	var x = document.getElementById("cutsceneDiv");
+	if (x.style.display === "none") {
+		x.style.display = "block";
+		console.debug("play it");
+		var videoPlayer=document.getElementById('cutscenePlayer');
+	    var videoSource=document.getElementById('cutsceneSrc');
+	    
+	    videoSource.src=currentScreen.cutscene;
+	    videoPlayer.load();
+		console.debug("wat!");
+
+		var promise = videoPlayer.play();
+
+		if (promise !== undefined) {
+		promise.then(_ => {
+			console.debug("Autoplay started!");
+		}).catch(error => {
+			console.debug("Autoplay prevented");
+			// Autoplay was prevented.
+			// Show a "Play" button so that user can start playback.
+		});
+		}
+		console.debug("wat!");
+
+		
+	} else {
+		x.style.display = "none";
+	}
+}
+
+function endCutscene() {
+	var x = document.getElementById("cutsceneDiv");
+	x.style.display = "none";
+
+	changeMusic();
+}
+
+function changeMusic(){
+	if(currentScreen.hasOwnProperty("musicName"))
+    {
+	    var player=document.getElementById('musicpane');
+	    var sourceMp3=document.getElementById('audiosrc');
+	    
+	    sourceMp3.src=currentScreen.musicName;
+	    player.load();
+	    player.play();
+    }
+}
+
+function initControls() {
+	
+}
+
+function updateProgress() {
+	
+}
