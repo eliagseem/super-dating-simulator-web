@@ -4,7 +4,7 @@
 var fieriScreens = [
     {
         "screenID":0,
-        "imageName":"images/start.jpg",
+        "imageName":"images/fieri/guyWalking.gif",
         "musicName":"music/MainTitle.mp3",
         "mainText":"A stout, well-tanned man in a flame-blazen shirt and bleached tips approaches you.",
         "buttonPanel":[
@@ -33,7 +33,7 @@ var fieriScreens = [
     },
     {
         "screenID":1,
-        "imageName":"images/smile.jpg",
+        "imageName":"images/fieri/guyIdleClean.gif",
         "mainText":"You are visibly nervous. A massive smile appears on his face. 'Ah, a true fan' he says as he notices the sparkles in your eyes.",
         "buttonPanel":[
             {
@@ -62,7 +62,7 @@ var fieriScreens = [
     {
         "screenID":2,
         "mainText":"You turn around and walk away from the stout man. Nothing happened.",
-        "imageName":"images/nothing.jpg",
+        "imageName":"images/fieri/guyAbandoned.gif",
         "musicName":"music/gameover.mp3",
         "buttonPanel":[
             {
@@ -91,7 +91,7 @@ var fieriScreens = [
     {
         "screenID":3,
         "mainText":"You tell him you really enjoy the energy he brings to his content, and that you feel his taste in food and his desire to share his passion with others has marked you positively. He smiles, but remains silent. His orange-tinted cheeks begin to take on a rosy material.",
-        "imageName":"images/enamored.jpg",
+        "imageName":"images/fieri/guyHappy.gif",
         "buttonPanel":[
             {
                 "buttonPos":0,
@@ -118,7 +118,7 @@ var fieriScreens = [
     },
     {
         "screenID":4,
-        "imageName":"images/dream.jpg",
+        "imageName":"images/fieri/guyPanOut.gif",
         "mainText":"You ask him what he's doing in your school's parking garage, which is currently empty. He tells you that you should know, since it's your dream.",
         "musicName":"music/dream.mp3",
         "buttonPanel":[
@@ -147,7 +147,7 @@ var fieriScreens = [
     },
     {
         "screenID":5,
-        "imageName":"images/flavortownDeath.jpg",
+        "imageName":"images/fieri/guyAttacks.gif",
         "musicName":"music/gameover.mp3",
         "mainText":"You're dumbfounded. You ask him what he means by 'it's MY dream'. He smirks. 'Welcome to Flavortown, baby' he whispers as he raises his arms. Welcome to Flavortown.",
         "buttonPanel":[
@@ -176,7 +176,7 @@ var fieriScreens = [
     },
     {
         "screenID":6,
-        "imageName":"images/lucidDream.jpg",
+        "imageName":"images/fieri/guyIdle.gif",
         "mainText":"You realize now that you are lucid dreaming. You are able to pause your dream, resume it, quit, change settings... pretty much anything. However, in the moment, only two options come to mind.",
         "buttonPanel":[
             {
@@ -395,7 +395,7 @@ var fieriScreens = [
     },
     {
         "screenID":14,
-        "imageName":"images/unconditional.jpg",
+        "imageName":"images/fieri/guyStab.gif",
         "mainText":"You let your emotions take over, your gut drives you. You give in to your feelings towards Guy. Even a flaming, harmful mess you still desire to be with him. You abandon everything to be with him. As such, you leave yourself completely open. You open your arms, welcoming a final carress from Guy. Guy lunges from within the fire and slits your throat.",
         "musicName":"music/gameover.mp3",
         "buttonPanel":[
@@ -535,7 +535,7 @@ var fieriScreens = [
     },
     {
         "screenID":19,
-        "imageName":"images/choices.jpg",
+        "imageName":"images/fieri/guyIdleClean.gif",
         "mainText":"You shout out the first thing that comes to your mind. 'I FIGHT DEMONS BECAUSE A BABY IN HEAVEN TELLS ME TO' is what ends up coming out of your mouth at an incredibly loud volume. Guy flinches as you scream. His face, now scrunched in disgust, slowly regains its form. A small smile appears on his face. 'I think I love you', he says in an incredibly low, timid voice. 'Finally, someone who understands me.'",
         "musicName":"music/choices.mp3",
         "buttonPanel":[
@@ -591,7 +591,7 @@ var fieriScreens = [
     },
     {
         "screenID":21,
-        "imageName":"images/cryingGuy.jpg",
+        "imageName":"images/fieri/guyCrying.gif",
         "mainText":"You try to come off cool and composed by telling him you're not sure who he is. He's visibly saddened by this comment. A single tear begins to roll down his left cheek.",
         "musicName":"music/sadGuy.mp3",
         "buttonPanel":[
@@ -619,7 +619,7 @@ var fieriScreens = [
     },
     {
         "screenID":22,
-        "imageName":"images/frustratedGuy.jpg",
+        "imageName":"images/fieri/guyIdleClean.gif",
         "mainText":"You tell him to stop crying. You begin to sing All Star by Smash Mouth. Guy Fieri cries harder. Through the sobs you hear 'I'm so tired of this!'",
         "buttonPanel":[
             {
@@ -646,7 +646,7 @@ var fieriScreens = [
     },
     {
         "screenID":23,
-        "imageName":"images/guyYell.jpg",
+        "imageName":"images/fieri/guypowerup.gif",
         "mainText":"Guy Fieri yells in frustration. 'I'm tired of being thought of as a joke!' He clenches his teeth and bears them, eyes watering up, his fists balled up and shaking.",
         "musicName":"music/angryGuy.mp3",
         "buttonPanel":[
@@ -702,7 +702,7 @@ var fieriScreens = [
     },
     {
         "screenID":25,
-        "imageName":"images/guyMayo.jpg",
+        "imageName":"images/fieri/guyAttacks.gif",
         "mainText":"You do nothing. Guy Fieri raises both arms, palms facing towards you. Sudden, intense jets of mayonnaise burst out of his palms and into your eyes. You've been blinded. Guy then yells into your ears so hard that you pass out. Game over.",
         "musicName":"music/gameover.mp3",
         "buttonPanel":[
@@ -812,7 +812,7 @@ var fieriScreens = [
     },
     {
         "screenID":29,
-        "imageName":"images/bothCry.jpg",
+        "imageName":"images/fieri/guyCrying.gif",
         "mainText":"You begin to cry. The man begins to cry harder. Through the sobs he utters 'My name... is Guy... sniff... Fieri...'",
         "musicName":"music/bothCry.mp3",
         "buttonPanel":[
