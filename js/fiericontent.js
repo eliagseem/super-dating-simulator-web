@@ -176,7 +176,7 @@ var fieriScreens = [
     },
     {
         "screenID":6,
-        "imageName":"images/fieri/guyIdle.gif",
+        "imageName":"images/fieri/guyIdleNoBG.gif",
         "mainText":"You realize now that you are lucid dreaming. You are able to pause your dream, resume it, quit, change settings... pretty much anything. However, in the moment, only two options come to mind.",
         "buttonPanel":[
             {
@@ -203,7 +203,7 @@ var fieriScreens = [
     },
     {
         "screenID":7,
-        "imageName":"images/kiss.jpg",
+        "imageName":"images/fieri/guyFieryDithered.gif",
         "mainText":"You gently carress Guy's shoulders. They're firm, but soft, like his lips. You let out a slight sigh; you've finally found the person you're meant to be with. Your connection is unspeakable, something words were never construed to describe. You want this feeling to last forever. You gaze into his eyes, and lean in for a kiss. You feel a burning sensation on your lips. Guy Fieri has turned into his evil form, Guy Fiery. He's a literal burning mass of flesh. You retreat, but still see his soft eyes through the flames.",
         "musicName":"music/kiss.mp3",
         "buttonPanel":[
@@ -231,7 +231,7 @@ var fieriScreens = [
     },
     {
         "screenID":8,
-        "imageName":"images/flamingGuy.jpg",
+        "imageName":"images/fieri/guyInFire.gif",
         "mainText":"You reach into the flames, feeling the heat on your skin, smelling the hair on your arm burning. It smells good somehow. It's satisfying to know you're so committed to something that it's changing you, physically. However, you reach in and nothing's there. It hurts to keep your arm in the fire but you keep it there, hoping to find Guy eventually. You wave your arm around, but no one's there.",
         "buttonPanel":[
             {
@@ -258,7 +258,7 @@ var fieriScreens = [
     },
     {
         "screenID":9,
-        "imageName":"images/flamingGuy2.jpg",
+        "imageName":"images/fieri/guyInFire.gif",
         "mainText":"You keep your arm in the fire, devoted to searching for Guy within the flaming mess. You no longer feel pain. You can no longer see your arm, either. You're not sure if your arm is gone, or if it's covered by the flames. You're too scared to pull it out and see.",
         "buttonPanel":[
             {
@@ -285,7 +285,7 @@ var fieriScreens = [
     },
     {
         "screenID":10,
-        "imageName":"images/armWin.jpg",
+        "imageName":"images/fieri/armWin.gif",
         "mainText":"You pull your arm out of the fire. It's gone. And so is Guy. The fire subsides, and you are left alone. Although you're sad about losing your arm, and Guy, you can seek comfort in knowing that you're still in control of yourself and your decisions. You leave the area, never to return.",
         "musicName":"music/win.mp3",
         "buttonPanel":[
@@ -313,7 +313,7 @@ var fieriScreens = [
     },
     {
         "screenID":11,
-        "imageName":"images/stayLoss.jpg",
+        "imageName":"images/fieri/guyInFire.gif",
         "mainText":"Crippling indecision overcomes you. You don't want to abandon Guy by removing your arm, but as such you will never know if you arm is still there or not. You stand, waiting. Forever. You can't realize he's gone, and you're so used to the pain that its become all that you know.",
         "musicName":"music/gameover.mp3",
         "buttonPanel":[
@@ -341,7 +341,7 @@ var fieriScreens = [
     },
     {
         "screenID":12,
-        "imageName":"images/abandon.jpg",
+        "imageName":"images/fieri/fireDithered.gif",
         "mainText":"You decide to abandon the dream. He's gone. He isn't who you thought he was. Quit while you're ahead, before you get hurt. To leave your dream, you must die.",
         "buttonPanel":[
             {
@@ -368,8 +368,8 @@ var fieriScreens = [
     },
     {
         "screenID":13,
-        "imageName":"images/knife.jpg",
-        "mainText":"You conjure up a knife, then wonder if it's the best way to go out. You've never thought of this before, surprisingly. You hate the idea, you hate its implications, but there's no other way out. You drop the knife and it disappears. You need to find another way to die.",
+        "imageName":"images/fieri/guyInFire.gif",
+        "mainText":"You need to think of a way to die, and fast.",
         "buttonPanel":[
             {
                 "buttonPos":0,
@@ -423,7 +423,7 @@ var fieriScreens = [
     },
     {
         "screenID":15,
-        "imageName":"images/kill.jpg",
+        "imageName":"images/fieri/guyBuilding.gif",
         "mainText":"You feel the urge to kill Guy Fieri. You conjure a spatula. A bucket of flaming hot coals appears by your side. You let out in a primal scream: 'WELCOME TO FLAVORTOWN' as you pick up a hot coal, throw it into the air, then hit it with your spatula. You miss Guy by a mile. He's now aware of your intentions to harm him and has turned around. He's apparently building something.",
         "musicName":"music/kill.mp3",
         "buttonPanel":[
@@ -451,7 +451,7 @@ var fieriScreens = [
     },
     {
         "screenID":16,
-        "imageName":"images/cake.jpg",
+        "imageName":"images/fieri/guyCake.gif",
         "mainText":"You wait. Guy turns around. He's baked you a cake with decorative frosting flames. There's text on the cake. It reads: 'I care about you. I am in love with every facet of you, purely because it is you. Your features may change, physically and emotionally, but as long as you're you I will be by yourside through those changes.'",
         "musicName":"music/cake.mp3",
         "buttonPanel":[
@@ -479,7 +479,7 @@ var fieriScreens = [
     },
     {
         "screenID":17,
-        "imageName":"images/slapCake.jpg",
+        "imageName":"images/fieri/guyDead2.gif",
         "mainText":"You hate what he wrote. You slap the cake out of his hands. His eyes begin to water and leak. 'I made that for you' he whimpers. You can't stand how much weakness he is showing. You pick up a flaming hot coal. He watches you, fearful and hurt, as you lob it into the air. When it comes back down you hit it with your spatula, sending the flaming hot coal bullet squarely on Guy's chest. It goes through his chest, through his heart, and becomes lodged in there. He looks at you, tears in his eyes. 'No one has ever hurt me as much as you've hurt me.' He falls over, dead. You killed Guy Fieri.",
         "musicName":"music/gameover.mp3",
         "buttonPanel":[
@@ -507,7 +507,7 @@ var fieriScreens = [
     },
     {
         "screenID":18,
-        "imageName":"images/killGuy.jpg",
+        "imageName":"images/fieri/guyDeadFall.gif",
         "mainText":"You decide to take this opportunity to kill him. You grab another coal, this time you won't miss. You lob it into the air. As you do, Guy turns around. He's baked you a cake with decorative frosting flames. You hit the coal with the spatula as it decents. There's text on the cake. It reads: 'I care about you. I am in love with every facet of you, purely because it is you. Your features may change, physically and emotionally, but as long as you're you I will be by your side through those changes.' You somehow read all of this before the flaming hot coal bullet lands squarely on Guy's chest. It goes through his chest, through his heart, and becomes lodged in there. He looks up, tears in his eyes. 'No one has ever hurt me as much as you've hurt me.' He falls over, dead. You killed Guy Fieri.",
         "musicName":"music/gameover.mp3",
         "buttonPanel":[
@@ -563,7 +563,7 @@ var fieriScreens = [
     },
     {
         "screenID":20,
-        "imageName":"images/headExplode.jpg",
+        "imageName":"images/fieri/guyFallInFear.gif",
         "mainText":"You remain silent despite the incredible discomfort. Your head begins to swell. Guy is visibly shaken, with an intense look of fear on his face. You feel your pores open up, blood pouring out of each one. Your eyes slink out of their sockets, your nostrils tear at the seams and your lips tear as they are stretched. You're dying. Your head explodes. You're dead. Next time, say something.",
         "musicName":"music/gameover.mp3",
         "buttonPanel":[
@@ -619,7 +619,7 @@ var fieriScreens = [
     },
     {
         "screenID":22,
-        "imageName":"images/fieri/guyIdleClean.gif",
+        "imageName":"images/fieri/guyYelling.gif",
         "mainText":"You tell him to stop crying. You begin to sing All Star by Smash Mouth. Guy Fieri cries harder. Through the sobs you hear 'I'm so tired of this!'",
         "buttonPanel":[
             {
@@ -674,7 +674,7 @@ var fieriScreens = [
     },
     {
         "screenID":24,
-        "imageName":"images/glowingGuy.jpg",
+        "imageName":"images/fieri/guyAngryRed.gif",
         "mainText":"Guy Fieri begins to glow red. The light around you two has become dim. You feel a rumbling at your feet.",
         "musicName":"music/incomingFight.mp3",
         "buttonPanel":[
@@ -730,7 +730,7 @@ var fieriScreens = [
     },
     {
         "screenID":26,
-        "imageName":"images/swatted.jpg",
+        "imageName":"images/fieri/guyStab.gif",
         "mainText":"You run towards Guy, fists clenched and ready to attack. He swats you away with strength so extraordinary that your body disintegrates due to the sheer force of his swat. You've passed away.",
         "musicName":"music/gameover.mp3",
         "buttonPanel":[
@@ -758,7 +758,7 @@ var fieriScreens = [
     },
     {
         "screenID":27,
-        "imageName":"images/apology.jpg",
+        "imageName":"images/fieri/guyIdleClean.gif",
         "mainText":"You apologize and Guy calms down.",
         "buttonPanel":[
             {
@@ -785,7 +785,7 @@ var fieriScreens = [
     },
     {
         "screenID":28,
-        "imageName":"images/videocd.jpg",
+        "imageName":"images/fieri/shrekCD.bmp",
         "mainText":"You begin to laugh. You pull out a copy of Shrek on VideoCD and point to it. You tell him he looks just like the guy who sings the song at the beginning of the film. A single tear rolls down his left cheek as you finish your sentence.",
         "buttonPanel":[
             {
@@ -840,7 +840,7 @@ var fieriScreens = [
     },
     {
         "screenID":30,
-        "imageName":"images/silence.jpg",
+        "imageName":"images/fieri/guyIdleClean.gif",
         "mainText":"You remain silent. The tension grows, the air is thick, You feel your neck begin to shake as your pulse pounds through your wrists and neck. You need to say something quick or you feel like your head will explode.",
         "buttonPanel":[
             {
