@@ -120,7 +120,7 @@ var fieriScreens = [
         "screenID":4,
         "imageName":"images/fieri/guyPanOut.gif",
         "mainText":"You ask him what he's doing in your school's parking garage, which is currently empty. He tells you that you should know, since it's your dream.",
-        "musicName":"music/dream.mp3",
+        "musicName":"music/goodending.mp3",
         "buttonPanel":[
             {
                 "buttonPos":0,
@@ -205,7 +205,7 @@ var fieriScreens = [
         "screenID":7,
         "imageName":"images/fieri/guyFieryDithered.gif",
         "mainText":"You gently carress Guy's shoulders. They're firm, but soft, like his lips. You let out a slight sigh; you've finally found the person you're meant to be with. Your connection is unspeakable, something words were never construed to describe. You want this feeling to last forever. You gaze into his eyes, and lean in for a kiss. You feel a burning sensation on your lips. Guy Fieri has turned into his evil form, Guy Fiery. He's a literal burning mass of flesh. You retreat, but still see his soft eyes through the flames.",
-        "musicName":"music/kiss.mp3",
+        "musicName":"music/fightmusic2.mp3",
         "buttonPanel":[
             {
                 "buttonPos":0,
@@ -287,7 +287,7 @@ var fieriScreens = [
         "screenID":10,
         "imageName":"images/fieri/armWin.gif",
         "mainText":"You pull your arm out of the fire. It's gone. And so is Guy. The fire subsides, and you are left alone. Although you're sad about losing your arm, and Guy, you can seek comfort in knowing that you're still in control of yourself and your decisions. You leave the area, never to return.",
-        "musicName":"music/win.mp3",
+        "musicName":"music/bestend.mp3",
         "buttonPanel":[
             {
                 "buttonPos":1,
@@ -537,7 +537,7 @@ var fieriScreens = [
         "screenID":19,
         "imageName":"images/fieri/guyIdleClean.gif",
         "mainText":"You shout out the first thing that comes to your mind. 'I FIGHT DEMONS BECAUSE A BABY IN HEAVEN TELLS ME TO' is what ends up coming out of your mouth at an incredibly loud volume. Guy flinches as you scream. His face, now scrunched in disgust, slowly regains its form. A small smile appears on his face. 'I think I love you', he says in an incredibly low, timid voice. 'Finally, someone who understands me.'",
-        "musicName":"music/choices.mp3",
+        "musicName":"music/deceiptmusic.mp3",
         "buttonPanel":[
             {
                 "buttonPos":0,
@@ -593,7 +593,7 @@ var fieriScreens = [
         "screenID":21,
         "imageName":"images/fieri/guyCrying.gif",
         "mainText":"You try to come off cool and composed by telling him you're not sure who he is. He's visibly saddened by this comment. A single tear begins to roll down his left cheek.",
-        "musicName":"music/sadGuy.mp3",
+        "musicName":"music/datemusic2.mp3",
         "buttonPanel":[
             {
                 "buttonPos":0,
@@ -648,7 +648,7 @@ var fieriScreens = [
         "screenID":23,
         "imageName":"images/fieri/guypowerup.gif",
         "mainText":"Guy Fieri yells in frustration. 'I'm tired of being thought of as a joke!' He clenches his teeth and bears them, eyes watering up, his fists balled up and shaking.",
-        "musicName":"music/angryGuy.mp3",
+        "musicName":"music/tensemusic.mp3",
         "buttonPanel":[
             {
                 "buttonPos":0,
@@ -676,7 +676,7 @@ var fieriScreens = [
         "screenID":24,
         "imageName":"images/fieri/guyAngryRed.gif",
         "mainText":"Guy Fieri begins to glow red. The light around you two has become dim. You feel a rumbling at your feet.",
-        "musicName":"music/incomingFight.mp3",
+        "musicName":"music/fightmusic.mp3",
         "buttonPanel":[
             {
                 "buttonPos":0,
@@ -814,7 +814,6 @@ var fieriScreens = [
         "screenID":29,
         "imageName":"images/fieri/guyCrying.gif",
         "mainText":"You begin to cry. The man begins to cry harder. Through the sobs he utters 'My name... is Guy... sniff... Fieri...'",
-        "musicName":"music/bothCry.mp3",
         "buttonPanel":[
             {
                 "buttonPos":0,
