@@ -91,7 +91,7 @@ var fieriScreens = [
     {
         "screenID":3,
         "mainText":"You tell him you really enjoy the energy he brings to his content, and that you feel his taste in food and his desire to share his passion with others has marked you positively. He smiles, but remains silent. His orange-tinted cheeks begin to take on a rosy material.",
-        "imageName":"images/fieri/guyHappy.gif",
+        "imageName":"images/fieri/guyHotC.gif",
         "buttonPanel":[
             {
                 "buttonPos":0,
@@ -535,7 +535,7 @@ var fieriScreens = [
     },
     {
         "screenID":19,
-        "imageName":"images/fieri/guyIdleC.gif",
+        "imageName":"images/fieri/guyHotC.gif",
         "mainText":"You shout out the first thing that comes to your mind. 'I FIGHT DEMONS BECAUSE A BABY IN HEAVEN TELLS ME TO' is what ends up coming out of your mouth at an incredibly loud volume. Guy flinches as you scream. His face, now scrunched in disgust, slowly regains its form. A small smile appears on his face. 'I think I love you', he says in an incredibly low, timid voice. 'Finally, someone who understands me.'",
         "musicName":"music/deceiptmusic.mp3",
         "buttonPanel":[
