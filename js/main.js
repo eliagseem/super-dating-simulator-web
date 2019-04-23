@@ -32,6 +32,11 @@ function loadScreen(screenToLoad) {
 		showCutscene(currentScreen.cutscene);
     }
 		
+	if(currentScreen.hasOwnProperty("cutscene"))
+    {
+		changeMusic();
+    }
+
 	document.getElementById("imagebox").src = currentScreen.imageName;
 }
 
@@ -113,8 +118,6 @@ function showCutscene(cutscene) {
 function endCutscene() {
 	var x = document.getElementById("cutsceneDiv");
 	x.style.display = "none";
-
-	changeMusic();
 }
 
 function changeMusic(){

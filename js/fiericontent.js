@@ -508,7 +508,7 @@ var fieriScreens = [
     {
         "screenID":18,
         "imageName":"images/fieri/guyDeadFall.gif",
-        "mainText":"You decide to take this opportunity to kill him. You grab another coal, this time you won't miss. You lob it into the air. As you do, Guy turns around. He's baked you a cake with decorative frosting flames. You hit the coal with the spatula as it decents. There's text on the cake. It reads: 'I care about you. I am in love with every facet of you, purely because it is you. Your features may change, physically and emotionally, but as long as you're you I will be by your side through those changes.' You somehow read all of this before the flaming hot coal bullet lands squarely on Guy's chest. It goes through his chest, through his heart, and becomes lodged in there. He looks up, tears in his eyes. 'No one has ever hurt me as much as you've hurt me.' He falls over, dead. You killed Guy Fieri.",
+        "mainText":"You decide to take this opportunity to kill him. You grab another coal, this time you won't miss. You lob it into the air. As you do, Guy turns around. He's baked you a cake. You hit the coal with the spatula as it descends. There's text on the cake. 'I care about you. I am in love with every facet of you, purely because it is you.' You somehow read all of this before the coal lands on Guy's chest. He looks up, tears in his eyes. 'No one has ever hurt me as much as you have.' He falls over, dead. You killed Guy Fieri.",
         "musicName":"music/gameover.mp3",
         "buttonPanel":[
             {
