@@ -4,7 +4,7 @@
 var fieriScreens = [
     {
         "screenID":0,
-        "imageName":"images/fieri/guyWalking.gif",
+        "imageName":"images/fieri/guyWalkingC.gif",
         "musicName":"music/MainTitle.mp3",
         "mainText":"A stout, well-tanned man in a flame-blazen shirt and bleached tips approaches you.",
         "buttonPanel":[
@@ -33,7 +33,7 @@ var fieriScreens = [
     },
     {
         "screenID":1,
-        "imageName":"images/fieri/guyIdleClean.gif",
+        "imageName":"images/fieri/guyIdleC.gif",
         "mainText":"You are visibly nervous. A massive smile appears on his face. 'Ah, a true fan' he says as he notices the sparkles in your eyes.",
         "buttonPanel":[
             {
@@ -535,7 +535,7 @@ var fieriScreens = [
     },
     {
         "screenID":19,
-        "imageName":"images/fieri/guyIdleClean.gif",
+        "imageName":"images/fieri/guyIdleC.gif",
         "mainText":"You shout out the first thing that comes to your mind. 'I FIGHT DEMONS BECAUSE A BABY IN HEAVEN TELLS ME TO' is what ends up coming out of your mouth at an incredibly loud volume. Guy flinches as you scream. His face, now scrunched in disgust, slowly regains its form. A small smile appears on his face. 'I think I love you', he says in an incredibly low, timid voice. 'Finally, someone who understands me.'",
         "musicName":"music/deceiptmusic.mp3",
         "buttonPanel":[
@@ -591,7 +591,7 @@ var fieriScreens = [
     },
     {
         "screenID":21,
-        "imageName":"images/fieri/guyCrying.gif",
+        "imageName":"images/fieri/guyCryingC.gif",
         "mainText":"You try to come off cool and composed by telling him you're not sure who he is. He's visibly saddened by this comment. A single tear begins to roll down his left cheek.",
         "musicName":"music/datemusic2.mp3",
         "buttonPanel":[
@@ -758,7 +758,7 @@ var fieriScreens = [
     },
     {
         "screenID":27,
-        "imageName":"images/fieri/guyIdleClean.gif",
+        "imageName":"images/fieri/guyIdleC.gif",
         "mainText":"You apologize and Guy calms down.",
         "buttonPanel":[
             {
@@ -812,7 +812,7 @@ var fieriScreens = [
     },
     {
         "screenID":29,
-        "imageName":"images/fieri/guyCrying.gif",
+        "imageName":"images/fieri/guyCryingC.gif",
         "mainText":"You begin to cry. The man begins to cry harder. Through the sobs he utters 'My name... is Guy... sniff... Fieri...'",
         "buttonPanel":[
             {
@@ -839,7 +839,7 @@ var fieriScreens = [
     },
     {
         "screenID":30,
-        "imageName":"images/fieri/guyIdleClean.gif",
+        "imageName":"images/fieri/guyIdleC.gif",
         "mainText":"You remain silent. The tension grows, the air is thick, You feel your neck begin to shake as your pulse pounds through your wrists and neck. You need to say something quick or you feel like your head will explode.",
         "buttonPanel":[
             {
