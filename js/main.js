@@ -32,7 +32,7 @@ function loadScreen(screenToLoad) {
 		showCutscene(currentScreen.cutscene);
     }
 		
-	if(currentScreen.hasOwnProperty("cutscene"))
+	if(currentScreen.hasOwnProperty("musicName"))
     {
 		changeMusic();
     }
